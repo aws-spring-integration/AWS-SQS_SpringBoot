@@ -1,3 +1,21 @@
+variable "enable_dlq" {
+    description = "Whether to create and attach a dead letter queue (DLQ)"
+    type = bool 
+    default = true 
+}
+
+variable "dlq_queue_name" {
+    description = "Name of the DQL queue (if enabled)"
+    type = string
+    default = "sqs-sns-lab-dlq"
+}
+
+variable "max_receive_count" {
+    description = "Max number of receives before moving message to DLQ"
+    type = number
+    default = 5
+}
+
 variable "aws_region" {
     description = "AWS region to deploy resources in"
     type = string

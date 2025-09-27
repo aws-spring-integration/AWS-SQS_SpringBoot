@@ -3,13 +3,20 @@ A hands-on lab for integrating AWS SQS (and optionally SNS) with Spring Boot usi
 
 ## Table of Contents 
 
-- [Project Structure](#Project Structure)
+- [Project Structure](#project-structure)
+
 - [Prerequisites](#prerequisites)
+
 - [Setup & Deployment](#setup--deployment)
+
 - [Usage](#usage)
+
 - [Modules Overview](#modules-overview)
+
 - [Hands-On Exercises](#hands-on-exercises)
+
 - [Cleanup](#cleanup)
+
 - [License](#license)
 
 ## Project Structure
