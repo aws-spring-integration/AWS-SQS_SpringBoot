@@ -1,4 +1,4 @@
-package com.aston.aws.sqs.base.configuration;
+package com.aston.aws.sqs.base.config;
 
 import com.aston.aws.sqs.base.loader.SpringPropertiesLoader;
 import org.springframework.context.annotation.Bean;

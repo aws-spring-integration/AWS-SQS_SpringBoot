@@ -33,7 +33,6 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>com.aston.aws</groupId>
             <artifactId>aws-sqs-starter-core</artifactId>

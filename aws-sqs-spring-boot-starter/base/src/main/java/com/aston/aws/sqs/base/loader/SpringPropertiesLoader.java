@@ -1,5 +1,6 @@
 package com.aston.aws.sqs.base.loader;
 
+import com.aston.aws.sqs.core.properties.ApplicationProperties;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -12,8 +13,7 @@ public class SpringPropertiesLoader implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        // TODO: add maven deps of core module and then remove comments
-        // ApplicationProperties.setApplicationName(applicationName);
-        // ApplicationProperties.setActiveProfile(activeProfile);
+        ApplicationProperties.setApplicationName(applicationName);
+        ApplicationProperties.setActiveProfile(activeProfile);
     }
 }
