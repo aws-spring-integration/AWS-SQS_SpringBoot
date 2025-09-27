@@ -1,4 +1,5 @@
-# AWS-SQS-SpringBoot-Integration
+# AWS-SQS-SpringBoot-Integration | [![Maven CI of AWS SQS Integrate with Spring Boot](https://github.com/aws-spring-integration/AWS-SQS_SpringBoot/actions/workflows/ci-pipeline.yaml/badge.svg)](https://github.com/aws-spring-integration/AWS-SQS_SpringBoot/actions/workflows/ci-pipeline.yaml)
+
 A hands-on lab for integrating AWS SQS (and optionally SNS) with Spring Boot using a Spring Boot starter pattern. This lab provides reusable modules, example apps, Terraform scripts, and automation for CI/CD, monitoring, and observability.
 
 ## Table of Contents 
