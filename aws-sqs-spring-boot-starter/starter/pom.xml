@@ -13,10 +13,29 @@
     <packaging>jar</packaging>
     <name>AWS SQS Starter</name>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <dependencies>
+        <!--   Base and Core modules     -->
+        <dependency>
+            <groupId>com.aston.aws</groupId>
+            <artifactId>aws-sqs-starter-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aston.aws</groupId>
+            <artifactId>aws-sqs-starter-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
+        <!-- Spring Boot Autoconfigure -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>

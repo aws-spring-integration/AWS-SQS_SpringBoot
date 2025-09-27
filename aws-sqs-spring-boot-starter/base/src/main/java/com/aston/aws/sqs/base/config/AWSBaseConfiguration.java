@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SQSBaseConfiguration {
+public class AWSBaseConfiguration {
     @Bean
     public SpringPropertiesLoader springPropertiesLoader() {
         return new SpringPropertiesLoader();
