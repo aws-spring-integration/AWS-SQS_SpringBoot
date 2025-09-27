@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.aston.aws</groupId>
+        <artifactId>aws-sqs-spring-boot-starter-root</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>aws-sqs-starter-core</artifactId>
+    <packaging>jar</packaging>
+    <name>AWS SQS Starter Core</name>
+
+<!--    <dependencies>-->
+<!--        &lt;!&ndash; Spring Boot core &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot</artifactId>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; AWS SDK for SQS and SNS &ndash;&gt;-->
+<!--&lt;!&ndash;        <dependency>&ndash;&gt;-->
+<!--&lt;!&ndash;            <groupId>software.amazon.awssdk</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;            <artifactId>sqs</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;        </dependency>&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>software.amazon.awssdk</groupId>-->
+<!--            <artifactId>sns</artifactId>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; Lombok &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>
+    </dependencies>-->
+</project>
