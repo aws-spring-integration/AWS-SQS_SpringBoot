@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sns-publisher-app
+
+aws:
+  sns:
+    enable: true
+    accessKey: ${AWS_ACCESS_KEY_ID}
+    secretKey: ${AWS_SECRET_ACCESS_KEY}
+    region: us-east-1
+    topicArn: arn:aws:sns:us-east-1:123456789012:my-test-topic
