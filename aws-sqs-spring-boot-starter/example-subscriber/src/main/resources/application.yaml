@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sqs-subscriber-app
+
+server:
+  port: 8082
+
+aws:
+  sqs:
+    enable: true
+    access-key: ${AWS_ACCESS_KEY_ID}
+    secret-key: ${AWS_SECRET_ACCESS_KEY}
+    region: us-east-1
+    queue-name: sqs-sns-lab-queue
+    max-messages: 10
+    wait-time-seconds: 20
+    visibility-timeout: 30
