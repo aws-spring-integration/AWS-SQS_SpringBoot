@@ -3,13 +3,6 @@ resource "aws_sns_topic" "sns_topic" {
     name = var.sns_topic_name
 }
 
-# Create SQS Queue
-resource "aws_sqs_queue" "sqs_queue" {
-    name = var.sqs_queue_name
-    delay_seconds = var.sqs_queue_delay_seconds
-    message_retention_seconds = var.sqs_retention_seconds
-}
-
 # Subscribe SQS Queue to SNS Topic
 resource "aws_sns_topic_subscription" "sns_sqs_subscription" {
     topic_arn = aws_sns_topic.sns_topic.arn

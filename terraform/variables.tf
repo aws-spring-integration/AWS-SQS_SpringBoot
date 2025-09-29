@@ -1,3 +1,9 @@
+variable "delay_seconds" {
+  description = "Message retention time for DLQ"
+  type        = number
+  default     = 1209600  # 14 days, maximum value defined for SQS
+}
+
 variable "enable_dlq" {
     description = "Whether to create and attach a dead letter queue (DLQ)"
     type = bool 
